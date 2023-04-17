@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Yusei Magic", sans-serif;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  background-color: #0f0;
+}
+
+body {
+  padding: 1rem;
+}
+
+#clock {
+  display: flex;
+  align-items: center;
+}
+
+#time {
+  font-size: 4rem;
+  display: flex;
+}
+
+#cal {
+  font-size: 3rem;
+  display: flex;
+  margin-right: 1rem;
+}
+
+#hours,
+#minutes,
+#seconds,
+#month,
+#date {
+  width: 1.2em;
+  text-align: center;
+}
+
+#day {
+  width: 2.5em;
+  text-align: center;
+}
